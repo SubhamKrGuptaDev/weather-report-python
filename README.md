@@ -11,8 +11,7 @@ A simple but very useful project that will tell the user the weather of any city
 
 ### Technical Resources Used
 
-* Python
-
+* Python - [requests](https://pypi.org/project/requests/)
 
 ### Future Options
 
