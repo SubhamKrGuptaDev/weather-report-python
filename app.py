@@ -48,6 +48,8 @@ def city(n):
         weather_clouds = apiDataJson['clouds']['all']
 
         results = {
+            "current_weather": weather_main,
+            "weather_description": weather_description,
             "temp_current": round(weather_temp, 2),
             "temp_feels_like": round(weather_feel, 2),
             "temp_min": round(weather_temp_min, 2),
